@@ -267,7 +267,7 @@ a:hover {
     top: -200%;					/* изначально мы ставили значение top:0, но меню было на весь экран, мы прячем его с помощью top: -100% */
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: #131313;
     padding: 70px 10px 20px 10px;
   }
@@ -484,9 +484,6 @@ a:hover {
       line-height: 30px;
     }
 
-    &__nav-btns.active {
-      height: 48%;
-    }
 
 
   }
@@ -911,6 +908,7 @@ a:hover {
 
   }
   &__elems {
+    margin-top: 40px;
     width: 100%;
     height: 100%;
     display: flex;
