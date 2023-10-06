@@ -379,7 +379,6 @@ a:hover {
   .header__burger {
     margin: 0 0 0 0;
   }
-
   
   .main-page {
     .main-page__title-block {
@@ -422,6 +421,7 @@ a:hover {
   }
 
 }
+
 
 @media (max-width: 739px) {
 
@@ -537,6 +537,14 @@ a:hover {
   .popup__block-input {
     margin-top: 50px;
   }
+
+  .cl-btn div.leftright {
+    width: 30px;
+  }
+
+  .cl-btn div.rightleft {
+    width: 30px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -551,6 +559,16 @@ a:hover {
   .header__phone-icon, #nav-btn {
     width: 240px;
   }
+
+  .cl-btn div.leftright {
+    width: 25px;
+  }
+
+  .cl-btn div.rightleft {
+    width: 25px;
+  }
+
+
 
 } 
 
@@ -961,6 +979,7 @@ a:hover {
   justify-content: center;
 
   div {
+    margin-left: 14px;
     cursor: pointer;
     position: relative;  
     height: 68px;

@@ -583,6 +583,12 @@ a:hover {
   .popup__block-input {
     margin-top: 50px;
   }
+  .cl-btn div.leftright {
+    width: 30px;
+  }
+  .cl-btn div.rightleft {
+    width: 30px;
+  }
 }
 @media (max-width: 320px) {
   .header__navigation {
@@ -593,6 +599,12 @@ a:hover {
   }
   .header__phone-icon, #nav-btn {
     width: 240px;
+  }
+  .cl-btn div.leftright {
+    width: 25px;
+  }
+  .cl-btn div.rightleft {
+    width: 25px;
   }
 }
 @media (max-width: 553px) {
@@ -1064,6 +1076,7 @@ a:hover {
           justify-content: center;
 }
 .cl-btn div {
+  margin-left: 14px;
   cursor: pointer;
   position: relative;
   height: 68px;
@@ -1099,32 +1112,6 @@ a:hover {
   transition: all 0.3s ease-in;
 }
 
-/* .cl-btn div {
-  cursor: pointer;
-  position: relative;  
-  height: 68px;
-  width: 40px;
-} */
-/* .cl-btn .leftright {
-  height: 3px;
-  width: 35px;
-  position: absolute;
-  margin-top: 24px;
-  background-color: #C2AB81;
-  border-radius: 2px;
-  transform: rotate(45deg);
-  transition: all .3s ease-in;
-} */
-/* .cl-btn .rightleft {
-  height: 3px;
-  width: 35px;
-  position: absolute;
-  margin-top: 24px;
-  background-color: #C2AB81;
-  border-radius: 2px;
-  transform: rotate(-45deg);
-  transition: all .3s ease-in;
-} */
 .cl-btn div:hover .leftright {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
